@@ -1,0 +1,17 @@
+first i want to thank you for the orginaized work, it shows how much you cares and want to learn.
+please rename S1 file to S2.
+And Remove the (added By Zaid ) from S1
+
+Task 1 :
+No Comment, Excellecnt Work.
+
+Task 2 :
+Tables and div are overstreched, you can fix that by adding style (width 50%) to the elements
+Otherwise Great
+
+Task 3 : 
+You have a problem with the page staying pink when less than 700px,
+you can fix that by adding the following tag to the header
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+some other notes but neglectable
+Everything else is perfect
