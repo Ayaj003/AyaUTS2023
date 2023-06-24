@@ -15,3 +15,11 @@ you can fix that by adding the following tag to the header
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 some other notes but neglectable
 Everything else is perfect
+
+Task 4 : 
+You're one of the few who got this page right.
+GREAT WORK.
+
+Task 5 : 
+No Comment, Perfect.
+
