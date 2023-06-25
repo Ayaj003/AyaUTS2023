@@ -1,0 +1,21 @@
+#heading{
+    font-size: 25px;
+    color:blue;
+}
+img{
+width: 250px;
+height: 150px;
+}
+#iscosoft{
+    border: 5px solid yellow;
+}
+#google{
+    border: 5px solid blue;
+}
+#microsoft{
+    border: 5px solid red;
+}
+div p {
+    background-color: green;
+    color:beige
+}
