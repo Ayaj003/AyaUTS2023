@@ -1,0 +1,13 @@
+@import "MyPage7.css";
+nav{
+    position: fixed;
+    right: 0;
+    height: 450px;
+}
+nav ul{
+    position: fixed;
+    right: 20px;   
+} 
+img{
+    float:right;
+}
