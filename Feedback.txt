@@ -22,3 +22,32 @@ GREAT WORK.
 
 Task 5 : 
 No Comment, Perfect.
+
+Task 6 :
+You forgot adding Title to Images, Dont Worry About It
+Good Job.
+
+Task 7 :
+Using Position Fixed when switching to Arabic made a problem with responsive
+so we dont edit much (BTW, Great Thinking of importing the english css instead of coping)
+you can add this line to arabic css
+@media (max-width: 800px) {
+    nav{
+        position: relative;
+        float: right;
+    }
+      }
+Otherwise Perfect.
+
+Task 8 :
+No Comment, Perfect.
+
+Task 9 :
+Same Note As Task 7, This one on me, as i was late on feedback
+Great Work.
+
+Task 10:
+Same as tasks 7 & 9, Agaim, One Me
+Perfect Work.
+
+
