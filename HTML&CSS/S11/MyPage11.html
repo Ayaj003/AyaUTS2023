@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="MyPage11.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+<div>
+<table>
+    <caption>My Calculator</caption>
+<tr>
+<td colspan="3"><input id="result"></input></td>
+<td><input type="button" value="C" id="clear" class="btn" onclick="clear()"></td>
+</tr><tr>
+<td><input type="button" value="1" class="btn" onclick="display('1')"></td>
+<td><input type="button" value="2" class="btn" onclick="display('2')"></td>
+<td><input type="button" value="3" class="btn" onclick="display('3')"></td>
+<td><input type="button" value="/" class="btn"  onclick="display('/')"></td>
+</tr><tr>
+<td><input type="button" value="4" class="btn" onclick="display('4')"></td>
+<td><input type="button" value="5" class="btn" onclick="display('5')"></td>
+<td><input type="button" value="6" class="btn" onclick="display('6')"></td>
+<td><input type="button" value="-" class="btn" onclick="display('-')"></td>
+</tr><tr>
+<td><input type="button" value="7" class="btn" onclick="display('7')"></td>
+<td><input type="button" value="8" class="btn" onclick="display('8')"></td>
+<td><input type="button" value="9" class="btn" onclick="display('9')"></td>
+<td><input type="button" value="+" class="btn" onclick="display('+')"></td>
+</tr><tr>
+<td><input type="button" value="." class="btn" onclick="display('.')"></td>
+<td><input type="button" value="0" class="btn" onclick="display('0')"></td>
+<td><input type="button" value="=" class="btn" id="equal" onclick="calc()"></td>
+<td><input type="button" value="*" class="btn" onclick="display('*')"></td>
+</tr>
+</table>
+</div>
+<script>
+function display(value){
+    document.getElementById("result").value += value;
+}
+function clear() {
+    document.getElementById("result").value ="";
+}
+//clearing is not working idk why :/
+function calc() {
+    var p = document.getElementById("result").value;
+    var q = eval(p);
+    document.getElementById("result").value = q;
+}
+</script>
+</body>
+</html>

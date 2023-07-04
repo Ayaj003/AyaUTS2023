@@ -11,4 +11,11 @@ nav ul {
 
 img {
   float: right;
+}
+
+@media (max-width: 800px) {
+  nav {
+    position: relative;
+    float: right;
+  }
 }/*# sourceMappingURL=cssAr.css.map */
