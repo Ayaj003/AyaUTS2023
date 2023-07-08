@@ -46,9 +46,35 @@ Task 9 :
 Same Note As Task 7, This one on me, as i was late on feedback
 Great Work.
 
-Task 10:
+Task 10 :
 Same as tasks 7 & 9, Agaim, One Me
 Perfect Work.
+
+Task 11 :
+The reason clear function doesnt work is its naming
+clear() is a built in function in js used to clear sets and its a reserved key
+so it got confused which clear to use and used the buit in one
+you can fix that by changing the function name 
+Good Job.
+
+Task 12 :
+When converting between celsius and fahrenheit, when both values are entered
+you can add another check if both values are entered ask the user to remove one instead of output undefiend
+otherwise perfect.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
