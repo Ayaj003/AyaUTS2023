@@ -31,5 +31,8 @@ function convert(){
     if ((cels==null || cels=="") && (fahr==null|| fahr=="")){
         alert("No values!")
     }
+    if((cals=!null) && (fahr=!null)){
+        alert("Add Just One Value!")
+    }
     document.getElementById("res2").innerHTML=result;
     }

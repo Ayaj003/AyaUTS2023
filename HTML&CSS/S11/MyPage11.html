@@ -10,7 +10,7 @@
     <caption>My Calculator</caption>
 <tr>
 <td colspan="3"><input id="result"></input></td>
-<td><input type="button" value="C" id="clear" class="btn" onclick="clear()"></td>
+<td><input type="button" value="C" id="clear" class="btn" onclick="clear0()"></td>
 </tr><tr>
 <td><input type="button" value="1" class="btn" onclick="display('1')"></td>
 <td><input type="button" value="2" class="btn" onclick="display('2')"></td>
@@ -38,10 +38,9 @@
 function display(value){
     document.getElementById("result").value += value;
 }
-function clear() {
+function clear0() {
     document.getElementById("result").value ="";
 }
-//clearing is not working idk why :/
 function calc() {
     var p = document.getElementById("result").value;
     var q = eval(p);
