@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table,th,td{
+    border:1px solid black;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+    }
+
+  </style>
+</head>
+<body>
+<h3>Get User Info Using Async/Await</h3>
+<table>
+    <tr>
+        <td>ID:</td>
+        <td><input id="userId"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><button onclick="getUserInfo()">Get User</button><button onclick="userReset()">Reset</button></td>
+    </tr>
+    <tr>
+        <td>Name:</td>
+        <td><p id="name"></p></td>
+    </tr>
+    <tr>
+        <td>User Name:</td>
+        <td><p id="username"></p></td>
+    </tr>
+    <tr>
+        <td>Email:</td>
+        <td><p id="email"></p></td>
+    </tr>
+    <tr>
+        <td>City:</td>
+        <td><p id="city"></p></td>
+    </tr>
+    <tr>
+        <td>Street:</td>
+        <td><p id="street"></p></td>
+    </tr>
+    <tr>
+        <td>zipcode:</td>
+        <td><p id="zipcode"></p></td>
+    </tr>
+    <tr>
+        <td>Result:</td>
+        <td><p id="result"></p></td>
+    </tr>
+  </table>
+  <h3>Get Image Info Using Async/Await</h3>
+  <table>
+    <tr>
+        <td>ID:</td>
+        <td><input id="imageID"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><button onclick="getImageInfo()">Get Image</button><button onclick="imageReset()">Reset</button></td>
+    </tr>
+    <tr>
+        <td>Album ID:</td>
+        <td><p id="albumId"></p></td>
+    </tr>
+    <tr>
+        <td>Image:</td>
+        <td><img id="url"></img></td>
+    </tr>
+    <tr>
+        <td>Result:</td>
+        <td><p id="imageResult"></p></td>
+    </tr>
+  </table>
+  <script src="MyPage13.js"></script>
+</body>
+</html>

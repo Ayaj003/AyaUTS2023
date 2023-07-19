@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+       class MyComponent extends React.Component{
+        render(){
+            const ulStyle = {border: '1px solid black'}
+            const employee=[{name: "Zead Khaled", address: "Nablus", age: 35, gender: "Male", mobile: "0599111111" },
+             {name: "Ahmad Mohammad", address: "Ramallah", age: 30, gender: "male", mobile: "0599222222" }, 
+            { name: "Maia Isa", address: "Tulkarem", age: 27, gender: "Female", mobile: "0599333333"}];
+            return(
+                <div>
+                    <h1>ISra Software & Computer Co.</h1>
+                    <p>Isra Software and Computer Company was established in 1997 in Nablus as a specialized in the production of software at palestine and Arab Countries.
+                    Includes more than 50 employees distributed in the following main departments (Research and Development, Training and Operation, Marketing and Sales, Finance, Audit and Quality).
+                    In addition to the company's headquarters in the city of Nablus, the company's branch was opened in Ramallah in 2004 to serve and fllow-up customers in the central and southern regions.</p>
+                        <table style={ulStyle}>
+                            <caption>Employees List</caption>
+                            <tr>
+                                <th style={ulStyle}>Name</th>
+                                <th style={ulStyle}>Address</th>
+                                <th style={ulStyle}>Age</th>
+                                <th style={ulStyle}>Gender</th>
+                                <th style={ulStyle}>Mobile</th>
+                            </tr>
+                                {employee.map((employee,index)=>(
+                                    <tr key={index}>
+                                    <td style={ulStyle}>{employee.name}</td>
+                                    <td style={ulStyle}>{employee.address}</td>
+                                    <td style={ulStyle}>{employee.age}</td>
+                                    <td style={ulStyle}>{employee.gender}</td>
+                                    <td style={ulStyle}>{employee.mobile}</td>    
+                            </tr>
+                                ))}
+                        </table>
+                    </div>
+                    );
+        }
+       }
+       const container=document.getElementById('root');
+       const root=ReactDOM.createRoot(container);
+       root.render(<MyComponent />)
+    </script>
+</body>
+</html>
