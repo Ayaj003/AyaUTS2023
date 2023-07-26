@@ -102,7 +102,7 @@ const App = () => {
       <label htmlFor="withoutgrouping" className="font-bold block mb-2">
         Password
       </label>
-      <Password
+      <Password style={{width:'300px'}}
       className='input'
         name="password"
         value={value2}
