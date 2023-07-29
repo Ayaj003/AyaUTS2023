@@ -62,6 +62,27 @@ When converting between celsius and fahrenheit, when both values are entered
 you can add another check if both values are entered ask the user to remove one instead of output undefiend
 otherwise perfect.
 
+Task 13 :
+Remeber to also clear the image when the next image isn't found,
+otherwise Perfect.
+
+Task 14 :
+No Comment, Perfect.
+
+Task 15 :
+Your work for this task was outstanding, you were the first to submit it, and with orginal work.
+Thank You.
+
+Task 16 :
+Perfect, More Than Perfect, GOOD JOB !
+
+Task 17 :
+No comment, Perfect.
+
+
+
+
+
 
 
 
