@@ -4,10 +4,12 @@ And Remove the (added By Zaid ) from S1
 
 Task 1 :
 No Comment, Excellecnt Work.
+4/4
 
 Task 2 :
 Tables and div are overstreched, you can fix that by adding style (width 50%) to the elements
 Otherwise Great
+3/4
 
 Task 3 : 
 You have a problem with the page staying pink when less than 700px,
@@ -15,17 +17,21 @@ you can fix that by adding the following tag to the header
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 some other notes but neglectable
 Everything else is perfect
+3/4
 
 Task 4 : 
 You're one of the few who got this page right.
 GREAT WORK.
+4/4
 
 Task 5 : 
 No Comment, Perfect.
+4/4
 
 Task 6 :
 You forgot adding Title to Images, Dont Worry About It
 Good Job.
+3/4
 
 Task 7 :
 Using Position Fixed when switching to Arabic made a problem with responsive
@@ -38,17 +44,21 @@ you can add this line to arabic css
     }
       }
 Otherwise Perfect.
+3/4
 
 Task 8 :
 No Comment, Perfect.
+4/4
 
 Task 9 :
 Same Note As Task 7, This one on me, as i was late on feedback
 Great Work.
+4/4
 
 Task 10 :
 Same as tasks 7 & 9, Agaim, One Me
 Perfect Work.
+4/4
 
 Task 11 :
 The reason clear function doesnt work is its naming
@@ -56,43 +66,55 @@ clear() is a built in function in js used to clear sets and its a reserved key
 so it got confused which clear to use and used the buit in one
 you can fix that by changing the function name 
 Good Job.
+3/4
 
 Task 12 :
 When converting between celsius and fahrenheit, when both values are entered
 you can add another check if both values are entered ask the user to remove one instead of output undefiend
 otherwise perfect.
+4/4
 
 Task 13 :
 Remeber to also clear the image when the next image isn't found,
 otherwise Perfect.
+3/4
 
 Task 14 :
 No Comment, Perfect.
+4/4
 
 Task 15 :
 Your work for this task was outstanding, you were the first to submit it, and with orginal work.
 Thank You.
+5/4
 
 Task 16 :
 Perfect, More Than Perfect, GOOD JOB !
+4/4
 
 Task 17 :
 No comment, Perfect.
+4/4
 
 Task 18 :
 Good Job Doing it like the actual iphone calculater, excelenet.
+4/4
 
 Task 19 :
 No Comment, Perfect.
+4/4
 
 Task 20 :
 No Comment, Pefect.
+4/4
 
 Task 21 :
 No Comment, Perfect.
+4/4
 
 Task 22 :
 No Comment, Perfect.
+4/4
 
 Task 23 :
 Execelent Job,
@@ -102,16 +124,21 @@ telephone and notes doesn't reset
 email correct form is name@domain.dns, we have to check for that
 or try using inputmask
 Good Job
+3/4
 
 Task 24 :
 No Comment, Perfect.
+4/4
 
 Task 25 :
 No Comment, Perfect.
+4/4
 
 I Have Finished all tasks
 your overall performance was great
-soon will give you your mark on the tasks
+
+94/100
+19/20
 
 
 
