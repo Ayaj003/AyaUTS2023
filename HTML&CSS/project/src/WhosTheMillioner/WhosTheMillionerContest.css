@@ -1,0 +1,9 @@
+.answerButtons button{
+    width:140px;
+    height: 30px;
+    border-radius:10px;
+    margin-right: 5px;  
+    font-size: 20px;
+    border: 1px solid black;
+    color:black;
+}
